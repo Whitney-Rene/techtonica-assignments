@@ -1,0 +1,28 @@
+html {
+    background-color: wheat;
+}
+h1 {
+    color: orangered;
+}
+
+h3 {
+    color:orangered
+}
+
+* {
+    font-family: monospace;
+}
+
+a[href*="vegan"]{
+    color: gray;
+}
+
+a:hover{
+    color: darkorange;
+}
+
+#inlineblock {
+    display: inline-block;
+    padding: coral;
+}
+
