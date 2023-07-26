@@ -1,15 +1,24 @@
-html {
-    background-color: wheat;
+/* html {
+    background-color:beige;
 }
-h1 {
-    color: orangered;
+/* #first {
+    color: #6B4E37;;
+} */
+
+/* #second{
+    color:#444444;
+    text-align: center;
+} */
+
+/* #third{
+    color: #000000;
 }
 
-h3 {
-    color:orangered
-}
+#fourth{
+    color:#0B3D91;
+} */
 
-* {
+/* * {
     font-family: monospace;
 }
 
@@ -21,8 +30,12 @@ a:hover{
     color: darkorange;
 }
 
-#inlineblock {
+#inline-block {
     display: inline-block;
-    padding: coral;
+    color: #444444;
+} */
+
+.ingredients-list{
+    text-align: center;
 }
 
