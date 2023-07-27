@@ -1,41 +1,52 @@
-/* html {
-    background-color:beige;
+html {
+    background-color:#f2f2f2;
 }
-/* #first {
-    color: #6B4E37;;
-} */
 
-/* #second{
-    color:#444444;
+.TOPtitleAndParagraph {
     text-align: center;
-} */
-
-/* #third{
-    color: #000000;
+    font-family: 'Bitter', serif;
 }
 
-#fourth{
-    color:#0B3D91;
-} */
 
-/* * {
-    font-family: monospace;
+#h1Title {
+    color: #6B4E37;
+    
 }
 
+img {
+    margin: 0 auto;
+    display: block;
+}
+
+#photoCredit {
+    text-align: center;
+}
+
+.Ingredients {
+    background-color: rgb(245, 171, 81);
+}
+
+.Instructions {
+    background-color: rgb(245, 171, 81);
+}
+
+.OtherLinks {
+    background-color: #b9b2b2;
+    text-align: center;
+}
 a[href*="vegan"]{
     color: gray;
 }
+/* the ruleset is for any href that has the string vegan, it willturn the text gray */
 
 a:hover{
     color: darkorange;
 }
 
-#inline-block {
+/* #inline-block {
     display: inline-block;
     color: #444444;
 } */
 
-.ingredients-list{
-    text-align: center;
-}
+
 
