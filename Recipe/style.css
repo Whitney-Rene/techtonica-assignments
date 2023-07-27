@@ -13,6 +13,11 @@ html {
     
 }
 
+.LEFTimgPCIngre {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
 img {
     margin: 0 auto;
     display: block;
@@ -22,18 +27,25 @@ img {
     text-align: center;
 }
 
+
 .Ingredients {
     background-color: rgb(245, 171, 81);
+    width: 45%;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .Instructions {
     background-color: rgb(245, 171, 81);
+    width: 45%;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .OtherLinks {
     background-color: #b9b2b2;
-    text-align: center;
 }
+
 a[href*="vegan"]{
     color: gray;
 }
