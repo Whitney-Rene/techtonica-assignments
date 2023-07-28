@@ -7,6 +7,11 @@
     font-family: 'Bitter', serif;
 }
 
+@media (max-width: 1080px) {
+    #paragraph {
+        color: pink;
+    }
+}
 
 #h1Title {
     color: #6B4E37;
@@ -63,8 +68,8 @@ img {
 }
 
 /* tried to add a query so that the text color changes, does not work*/
-@media (min-width: 1081px){
-    .Ingredients .Instructions {
+@media (max-width: 1081px){
+    .Ingredients, .Instructions {
         color: pink;
     }
 }

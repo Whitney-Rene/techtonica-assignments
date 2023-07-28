@@ -28,7 +28,7 @@ duhButton.addEventListener("click", function(){
 let htmlEle = document.querySelector("html");
 htmlEle.style.backgroundColor = "#f2f2f2";
 
-//Change paragraph color to pink
+//Change paragraph color to teal
 let paraId = document.getElementById("paragraph");
 paraId.style.color = "#008080";
 
