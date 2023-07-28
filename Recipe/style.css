@@ -21,6 +21,7 @@
 img {
     margin: 0 auto;
     display: block;
+    /* width: 32%; */
 }
 
 .test{
@@ -53,7 +54,7 @@ img {
     text-align: center;
 }
 
-.OtherLinks {
+.ExtLin {
     font-family: 'Bitter', serif;
     text-align: center;
 }
