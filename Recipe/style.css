@@ -23,8 +23,13 @@ img {
     display: block;
 }
 
+.test{
+    display: flex;
+}
+
 #photoCredit {
     text-align: center;
+    font-family: 'Bitter', serif;
 }
 
 
@@ -33,17 +38,24 @@ img {
     width: 45%;
     display: inline-block;
     margin: 0 auto;
+    font-family: 'Bitter', serif;
+    text-align: center;
 }
+
+
 
 .Instructions {
     background-color: rgb(245, 171, 81);
     width: 45%;
     display: inline-block;
     margin: 0 auto;
+    font-family: 'Bitter', serif;
+    text-align: center;
 }
 
 .OtherLinks {
-    background-color: #b9b2b2;
+    font-family: 'Bitter', serif;
+    text-align: center;
 }
 
 a[href*="vegan"]{
