@@ -23,3 +23,7 @@ containerOne.appendChild(duhButton);
 duhButton.addEventListener("click", function(){
     duhButton.innerText = "Of course, YOU DO! That is why you are here!";
 });
+
+//check background color to wheat/gray
+let htmlEle = document.querySelector("html");
+htmlEle.style.backgroundColor = "#f2f2f2";
