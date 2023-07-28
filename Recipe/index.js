@@ -32,5 +32,11 @@ htmlEle.style.backgroundColor = "#f2f2f2";
 let paraId = document.getElementById("paragraph");
 paraId.style.color = "#008080";
 
+
+//Issues:
+// Couldn't get paragrpaph to turn pink on media query CSS
+// Bullet points and numbers are not centered
+
+//Want to keep working on:
 //Add an extra website to "Other Links"
 let externalLinks = document.getElementsByClassName("ExtLin");

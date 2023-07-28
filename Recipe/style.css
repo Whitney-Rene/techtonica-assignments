@@ -67,7 +67,7 @@ img {
     color: #6B4E37
 }
 
-/* tried to add a query so that the text color changes, does not work*/
+/* media query so that the text color changes*/
 @media (max-width: 1081px){
     .Ingredients, .Instructions {
         color: pink;
