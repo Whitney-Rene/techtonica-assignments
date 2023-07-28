@@ -32,6 +32,30 @@ htmlEle.style.backgroundColor = "#f2f2f2";
 let paraId = document.getElementById("paragraph");
 paraId.style.color = "#008080";
 
+//Change background and text
+function isValidColr(string) {
+    const validColor = new Option().style;
+    validColor.color = string;
+    return validColor.color === string.toLowerCase();
+  };
+  
+  let userInputOne = prompt("What TEXT color would you like?");
+  console.log(userInputOne);
+  if (isValidColr(userInputOne)) {
+    let bodyElemOne = document.querySelector("body");
+    bodyElemOne.style.color = userInputOne;
+  } else {
+    alert("This is not a valid color.")
+  }
+  
+  let userInputTwo = prompt("What BACKGROUND color would you like?");
+  console.log(userInputTwo);
+  if (isValidColr(userInputTwo)) {
+    let bodyElemTwo = document.querySelector("body");
+    bodyElemTwo.style.backgroundColor = userInputTwo;
+  } else {
+    alert("This is not a valid color.")
+  }
 
 //Issues:
 // Couldn't get paragrpaph to turn pink on media query CSS
