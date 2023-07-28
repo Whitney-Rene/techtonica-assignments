@@ -2,14 +2,14 @@
 //Added an item to my unorderded list, bold and gray
 let newListItems = document.createElement("li");
 newListItems.textContent = "don't forget to add LOTS OF LOVE!";
-newListItems.style.color = "#505050";
+newListItems.style.color = "teal";
 newListItems.style.fontWeight = "bold";
 document.querySelector("ul").appendChild(newListItems);
 
 //Added an item to my orderded list, bold and gray
 let newInstruction = document.createElement("li");
 newInstruction.textContent = "Let cool and ENJOY!";
-newInstruction.style.color = "#505050";
+newInstruction.style.color = "teal";
 newInstruction.style.fontWeight = "bold";
 document.getElementById("Instructions").appendChild(newInstruction);
 

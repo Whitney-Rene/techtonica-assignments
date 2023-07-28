@@ -27,7 +27,7 @@ img {
 /* added a media query for the image, it gets really big when the screen is minamized */
 @media (max-width: 1080px){
     img {
-        width: 600%;
+        width: 100%;
     }
 }
 
@@ -49,9 +49,8 @@ img {
     margin: 0 auto;
     font-family: 'Bitter', serif;
     text-align: center;
+    color: #6B4E37
 }
-
-
 
 .Instructions {
     background-color: rgb(245, 171, 81);
@@ -60,7 +59,16 @@ img {
     margin: 0 auto;
     font-family: 'Bitter', serif;
     text-align: center;
+    color: #6B4E37
 }
+
+/* tried to add a query so that the text color changes, does not work*/
+@media (min-width: 1081px){
+    .Ingredients .Instructions {
+        color: pink;
+    }
+}
+
 
 .ExtLin {
     font-family: 'Bitter', serif;
