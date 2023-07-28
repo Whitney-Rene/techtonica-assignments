@@ -21,8 +21,16 @@
 img {
     margin: 0 auto;
     display: block;
-    /* width: 32%; */
+    width: 32%;
 }
+
+/* added a media query for the image, it gets really big when the screen is minamized */
+@media (max-width: 1080px){
+    img {
+        width: 600%;
+    }
+}
+
 
 .test{
     display: flex;

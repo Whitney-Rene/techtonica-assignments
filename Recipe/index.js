@@ -32,7 +32,5 @@ htmlEle.style.backgroundColor = "#f2f2f2";
 let paraId = document.getElementById("paragraph");
 paraId.style.color = "#008080";
 
-//add media query
-
 //Add an extra website to "Other Links"
 let externalLinks = document.getElementsByClassName("ExtLin");
