@@ -4,7 +4,6 @@
     font-family: 'Bitter', serif;
 }
 
-
 /* This does not work */
 @media (max-width: 1080px) {
     #paragraph {
@@ -12,12 +11,10 @@
     }
 }
 
-
 #h1Title {
     color: #6B4E37;
     
 }
-
 
 .LEFTimgPCIngre {
     display: flex;
@@ -25,13 +22,11 @@
     justify-content: center;
 }
 
-
 img {
     margin: 0 auto;
     display: block;
     width: 50%;
 }
-
 
 /* added a media query for the image, image gets smaller when the screen is minamized */
 @media (max-width: 1080px){
@@ -40,65 +35,41 @@ img {
     }
 }
 
-
-.test{
+.DivIngreInstru {
     display: flex;
 }
-
 
 #photoCredit {
     text-align: center;
     font-family: 'Bitter', serif;
 }
 
-
-.Ingredients {
+.listContainer {
     background-color: rgb(245, 171, 81);
     width: 45%;
-    display: inline-block;
     margin: 0 auto;
     font-family: 'Bitter', serif;
     text-align: center;
     color: #6B4E37
 }
-
-
-.Instructions {
-    background-color: rgb(245, 171, 81);
-    width: 45%;
-    display: inline-block;
-    margin: 0 auto;
-    font-family: 'Bitter', serif;
-    text-align: center;
-    color: #6B4E37
-}
-
 
 /* media query so that the text color changes*/
 @media (max-width: 1081px){
-    .Ingredients, .Instructions {
+    .DivIngreInstru {
         color: pink;
     }
 }
-
 
 .ExtLin {
     font-family: 'Bitter', serif;
     text-align: center;
 }
 
-
 /* the ruleset is for any href that has the string vegan, it willturn the text gray */
 a[href*="vegan"]{
     color: gray;
 }
 
-
 a:hover{
     color: darkorange;
 }
-
-
-
-
-
