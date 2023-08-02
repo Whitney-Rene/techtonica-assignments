@@ -1,0 +1,40 @@
+
+/* .photoAndIntro {
+    display: flex;
+}
+
+.containers {
+    flex: 1;
+} 
+
+img {
+    max-width: 100%;
+  height: auto;
+} */
+
+
+
+
+/* 
+.containers {
+    display: inline-block;
+    width: 48%; Adjust the width as needed
+    vertical-align: top; Align containers at the top
+}
+
+ #photoOfMe {
+    max-width: 100%; Ensure the image doesn't exceed its container
+    height: auto; Maintain aspect ratio
+} 
+*/
+
+
+
+/* .containers {
+    float: left;
+    width: 50%; Adjust the width as needed 
+}
+#photoOfMe {
+    max-width: 100%;
+    height: auto;
+} */
