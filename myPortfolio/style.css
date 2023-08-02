@@ -1,40 +1,47 @@
-
-/* .photoAndIntro {
-    display: flex;
+html {
+    /* background-color: rgb(255, 230, 208); */
+    /* light blue, skyblue, cream, beige!, pale yellow, peach! coral */
+    background-color: #ffffff;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#Bio {
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    background-color: peachpuff;
+    color: #708090;
+    /* margin-right: 35px; */
+
+}
+
+.photoAndBio {
+    display: flex;
+    margin-top: 25px;
+    max-width: 1000px;
+}
+
 
 .containers {
     flex: 1;
 } 
 
 img {
-    max-width: 100%;
-  height: auto;
-} */
-
-
-
-
-/* 
-.containers {
-    display: inline-block;
-    width: 48%; Adjust the width as needed
-    vertical-align: top; Align containers at the top
-}
-
- #photoOfMe {
-    max-width: 100%; Ensure the image doesn't exceed its container
-    height: auto; Maintain aspect ratio
-} 
-*/
-
-
-
-/* .containers {
-    float: left;
-    width: 50%; Adjust the width as needed 
-}
-#photoOfMe {
+    /* margin-left: 35px; */
     max-width: 100%;
     height: auto;
-} */
+}
+
+.Projects, .ContactInfoAndForm {
+    /* margin-left: 35px;
+    margin-right: 35px; */
+    font-family: "Amatic SC", sans-serif;
+}
+
+#Bio {
+    padding-top: 100px;
+}
