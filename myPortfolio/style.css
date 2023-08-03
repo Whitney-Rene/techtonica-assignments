@@ -1,21 +1,47 @@
 html {
     /* background-color: rgb(255, 230, 208); */
     /* light blue, skyblue, cream, beige!, pale yellow, peach! coral */
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: lavender;
+    color: #1A237E
 }
+
+.bold-text {
+    font-weight: bold;
+  }
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "Amatic SC", sans-serif;
 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 #Bio {
     text-align: center;
     font-family: "Amatic SC", sans-serif;
-    background-color: peachpuff;
-    color: #708090;
-    /* margin-right: 35px; */
+    margin-left: 35px;
+    padding-top: 100px;
+
+}
+
+/* From Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+/* Apply the font to the h1 element */
+h1 {
+  font-family: 'Italianno', cursive;
+}
+
+
+#paraFont {
+    font-family: "Open Sans", sans-serif;
+
 
 }
 
@@ -30,18 +56,6 @@ body {
     flex: 1;
 } 
 
-img {
-    /* margin-left: 35px; */
-    max-width: 100%;
-    height: auto;
-}
-
-.Projects, .ContactInfoAndForm {
-    /* margin-left: 35px;
-    margin-right: 35px; */
-    font-family: "Amatic SC", sans-serif;
-}
-
-#Bio {
-    padding-top: 100px;
+#contacBack {
+    background-color: gray;
 }
