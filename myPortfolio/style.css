@@ -34,7 +34,7 @@ img {
     text-align: center;
     font-family: "Amatic SC", sans-serif;
     margin-left: 35px;
-    padding-top: 50px;
+    padding-top: 15px;
 
 }
 
@@ -71,14 +71,10 @@ h2 {
 } 
 
 #projectTitle, #contactTitle {
-    color: black;
+    color: #816f0e;
+    text-align: center;
 }
-
-#contacBack {
-    background-color: gray;
-    /* padding-right: 10px; */
-}
-
+ 
 h5 {
     font-family: "Open Sans", sans-serif;
     
