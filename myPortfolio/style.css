@@ -39,7 +39,7 @@ h1 {
 }
 
 
-#paraFont {
+#paraFont, h5 {
     font-family: "Open Sans", sans-serif;
 
 
@@ -59,3 +59,4 @@ h1 {
 #contacBack {
     background-color: gray;
 }
+
