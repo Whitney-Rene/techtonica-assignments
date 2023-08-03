@@ -21,7 +21,7 @@ body {
 img {
     max-width: 100%;
     height: auto;
-    border: 1px dotted lightgoldenrodyellow
+    border: 10px dotted lightgoldenrodyellow
 }
 
 #Bio {
@@ -37,13 +37,20 @@ img {
 /* Apply the font to the h1 element */
 h1 {
   font-family: 'Italianno', cursive;
+  color: #816f0e;
+  margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+    font-family: 'Italianno', cursive;
+    color: #816f0e;
 }
 
 
-#paraFont, h5 {
-    font-family: "Open Sans", sans-serif;
-
-
+#paraFont {
+    font-family: 'Italianno', cursive;
+    color: gray;
 }
 
 .photoAndBio {
@@ -60,6 +67,11 @@ h1 {
 #contacBack {
     background-color: gray;
     /* padding-right: 10px; */
+}
+
+h5 {
+    font-family: "Open Sans", sans-serif;
+    
 }
 
 
