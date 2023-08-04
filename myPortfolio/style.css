@@ -78,7 +78,35 @@ h2 {
 h5 {
     font-family: "Open Sans", sans-serif;
     text-align: center;
+    color: gray
     
 }
 
+#h5One {
+    margin-bottom: 0;
+    margin-top: 10;
+}
 
+#h5Two {
+    margin-top: 0;
+}
+
+#contactTitle {
+    margin-bottom: 10;
+}
+
+form{
+    font-family: sans-serif;
+    color: #0082cb;
+}
+
+/* Unvisited links will be displayed in blue */
+a:link {
+    color: #0082cb;
+  }
+  
+  /* Visited links will be displayed in red */
+a:visited {
+    color: #0082cb;
+  }
+  
