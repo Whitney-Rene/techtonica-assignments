@@ -40,42 +40,38 @@
 
     </div>  
 
+    <div class="ContactInfoAndForm">
 
-
-
-      <div class="ContactInfoAndForm">
-
-        <h2 id="contactTitle">Contact Me!</h2>
-        <h5 id="h5One">Contact me via email: whhtnchambers76@gmail.com</h5>
-        <h5 id="h5Two"><a id="specialtag" href="https://www.linkedin.com/in/whitney-rene-chambers/">Connect with me on LinkedIn</a></h5>
+      <h2 id="contactTitle">Contact Me!</h2>
+      <h5 id="h5One">Contact me via email: whhtnchambers76@gmail.com</h5>
+      <h5 id="h5Two"><a id="specialtag" href="https://www.linkedin.com/in/whitney-rene-chambers/">Connect with me on LinkedIn</a></h5>
+      
+      <form>
+        <label for="fnameinput">What is your first name?</label>
+        <input id="fnameinput" type="text" name="firstname" placeholder="enter first name" required>
+      
+        <br>
+        <label for="email">What is your email?</label>
+        <input id="email" type="text" name="email" placeholder="enter email" required>
         
-        <form>
-
-          <label for="fnameinput">What is your first name?</label>
-          <input id="fnameinput" type="text" name="firstname" placeholder="enter first name" required>
+        <br>
         
-          <br>
+        <label for="number">Would you like to share your number?</label>
+        <input id="number" type="tel" name="phoneNumber" placeholder="enter number (optional)">
+        
+        <br>
+        
+        <label for="address">What is your address?</label>
+        <input id="address" type="text" name="address" placeholder="enter address (optional)">
 
-          <label for="email">What is your email?</label>
-          <input id="email" type="text" name="email" placeholder="enter email" required>
-          
-          <br>
-          
-          <label for="number">Would you like to share your number?</label>
-          <input id="number" type="tel" name="phoneNumber" placeholder="enter number (optional)">
-          
-          <br>
-          
-          <label for="address">What is your address?</label>
-          <input id="address" type="text" name="address" placeholder="enter address (optional)">
+        <br>
+        
+        <section class="submission">
+        <button id="submit" type="submit">Submit</button>
+        <div id="emailError"></div>
+        </section>
 
-          <br>
-          
-          <section class="submission">
-          <button id="submit" type="submit">Submit</button>
-          </section>
-
-        </form>
+      </form>
 
       </div>
 
