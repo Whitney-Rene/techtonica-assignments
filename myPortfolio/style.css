@@ -1,40 +1,116 @@
+/* san serif */
 
-/* .photoAndIntro {
-    display: flex;
+html {
+    /* background-color: rgb(255, 230, 208); */
+    /* light blue, skyblue, cream, beige!, pale yellow, peach! coral */
+    /* background-color: #ffffff; */
+    background-color: lavender;
 }
+
+.bold-text {
+    font-weight: bold;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Amatic SC", sans-serif;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 10px dotted lightgoldenrodyellow;
+}
+
+.headings {
+    font-weight: bold;
+    font-size: larger;
+}
+
+#Bio {
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    margin-left: 35px;
+    padding-top: 15px;
+
+}
+
+/* From Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+/* Apply the font to the h1 element */
+h1 {
+  font-family: 'Italianno', cursive;
+  color: #816f0e;
+  margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+    font-family: 'Italianno', cursive;
+    color: #816f0e;
+}
+
+
+#paraFont {
+    font-family: 'Italianno', cursive;
+    color: gray;
+}
+
+.photoAndBio {
+    display: flex;
+    margin-top: 25px;
+    max-width: 1000px;
+}
+
 
 .containers {
     flex: 1;
 } 
 
-img {
-    max-width: 100%;
-  height: auto;
-} */
-
-
-
-
-/* 
-.containers {
-    display: inline-block;
-    width: 48%; Adjust the width as needed
-    vertical-align: top; Align containers at the top
+#projectTitle, #contactTitle {
+    color: #816f0e;
+    text-align: center;
+}
+ 
+h5 {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color: gray
+    
 }
 
- #photoOfMe {
-    max-width: 100%; Ensure the image doesn't exceed its container
-    height: auto; Maintain aspect ratio
-} 
-*/
-
-
-
-/* .containers {
-    float: left;
-    width: 50%; Adjust the width as needed 
+#h5One {
+    margin-bottom: 0;
+    margin-top: 10;
 }
-#photoOfMe {
-    max-width: 100%;
-    height: auto;
-} */
+
+#h5Two {
+    margin-top: 0;
+}
+
+#contactTitle {
+    margin-bottom: 10;
+}
+
+form{
+    font-family: sans-serif;
+    color: #0082cb;
+    border: 5px dotted lightgoldenrodyellow;
+}
+
+/* Unvisited links will be displayed in blue */
+a:link {
+    color: #0082cb;
+  }
+  
+  /* Visited links will be displayed in blue */
+a:visited {
+    color: #0082cb;
+  }
+  
+  #specialtag{
+    color: gray
+  }
