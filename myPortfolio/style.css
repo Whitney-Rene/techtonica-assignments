@@ -22,7 +22,7 @@ body {
 img {
     max-width: 100%;
     height: auto;
-    border: 10px dotted lightgoldenrodyellow
+    border: 10px dotted lightgoldenrodyellow;
 }
 
 .headings {
@@ -98,6 +98,7 @@ h5 {
 form{
     font-family: sans-serif;
     color: #0082cb;
+    border: 5px dotted lightgoldenrodyellow;
 }
 
 /* Unvisited links will be displayed in blue */
@@ -105,7 +106,7 @@ a:link {
     color: #0082cb;
   }
   
-  /* Visited links will be displayed in red */
+  /* Visited links will be displayed in blue */
 a:visited {
     color: #0082cb;
   }
