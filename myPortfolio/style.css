@@ -1,9 +1,4 @@
-/* san serif */
-
 html {
-    /* background-color: rgb(255, 230, 208); */
-    /* light blue, skyblue, cream, beige!, pale yellow, peach! coral */
-    /* background-color: #ffffff; */
     background-color: lavender;
 }
 
@@ -35,7 +30,6 @@ img {
     font-family: "Amatic SC", sans-serif;
     margin-left: 35px;
     padding-top: 15px;
-
 }
 
 /* From Google Fonts */
@@ -53,7 +47,6 @@ h2 {
     color: #816f0e;
 }
 
-
 #paraFont {
     font-family: 'Italianno', cursive;
     color: gray;
@@ -64,7 +57,6 @@ h2 {
     margin-top: 25px;
     max-width: 1000px;
 }
-
 
 .containers {
     flex: 1;
