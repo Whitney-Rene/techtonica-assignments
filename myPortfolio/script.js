@@ -9,3 +9,4 @@ document.getElementById("submit").addEventListener("click", (event) =>{
     console.log(username);
     console.log(email);
 })
+
