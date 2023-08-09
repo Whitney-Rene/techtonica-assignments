@@ -1,3 +1,29 @@
 body {
-    background-color: ;
+    background-color: rgb(150, 200, 150);
 }
+
+#container {
+    background-color: lightsalmon;
+    color: black;
+    border: 5px dotted lightgoldenrodyellow; 
+    height: 275px;
+    width: 750px;
+    margin: auto;
+    text-align: center;
+}
+
+#userInput {
+    width:100px;
+    margin: 25px auto;
+}
+
+/* 
+Shorthand syntax :
+margin: [top] [right] [bottom] [left];
+
+Longhand syntax:
+margin-top: value;
+margin-right: value;
+margin-bottom: value;
+margin-left: value;
+*/
