@@ -2,6 +2,12 @@ body {
     background-color: rgb(150, 200, 150);
 }
 
+#title {
+    text-align: center;
+    font-family: cursive;
+    color: rgb(229, 229, 124);
+}
+
 #container {
     background-color: lightsalmon;
     color: black;
@@ -12,9 +18,22 @@ body {
     text-align: center;
 }
 
+p {
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+label {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+}
+
 #userInput {
-    width:100px;
+    width:150px;
+    height: 50px;
     margin: 25px auto;
+    font-size: larger;
 }
 
 /* 
@@ -27,3 +46,13 @@ margin-right: value;
 margin-bottom: value;
 margin-left: value;
 */
+
+#btn {
+    margin: 25px auto auto 5px;
+    width: 150px;
+    height: 50px;
+    border: 5px black;
+    background-color: wheat;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
