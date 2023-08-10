@@ -5,7 +5,12 @@ let number = Math.floor(Math.random() * 10) + 1;
 
 btn.addEventListener("click", function(){
     let input = document.getElementById("userInput").value;
-    if(input == number){
+    if(input == "") {
+        output.innerHTML = "you must enter something"
+    } else if (input < 0 || input > 5){
+        output.innerHTML = "remember to guess between numbers 1 - 5"
+    }
+    else if(input == number){
         output.innerHTML = `You guessed correctly, the number was ${number}`
     } else if (input < number){
         output.innerHTML = "too low";
