@@ -11,7 +11,7 @@ body {
 #container {
     background-color: lightsalmon;
     color: black;
-    border: 5px dotted lightgoldenrodyellow; 
+    border: 5px dotted lightgray; 
     height: 275px;
     width: 750px;
     margin: auto;
@@ -59,4 +59,5 @@ margin-left: value;
 
 #playAgain {
     background-color: lavenderblush;
+    border: 5px solid lightcyan;
 }
