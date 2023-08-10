@@ -1,7 +1,14 @@
 let btn = document.getElementById("btn");
+let
 let output = document.getElementById("output");
 
-let number = Math.floor(Math.random() * 5) + 1;
+function resetGame() {
+    number = Math.floor(Math.random() * 5) + 1;
+    output.innerHTML = "";
+    output.style.color = "navy";
+}
+
+// let number = Math.floor(Math.random() * 5) + 1;
 
 btn.addEventListener("click", function(){
     let input = document.getElementById("userInput").value;
@@ -24,4 +31,4 @@ btn.addEventListener("click", function(){
 });
 
 //play again button?? / how to reset the game? 
-//what if people don't enter a number?
+//what if people don't enter a number? Like, if they enter a word, something that is not a number?
