@@ -1,7 +1,7 @@
 let btn = document.getElementById("btn");
 let output = document.getElementById("output");
 
-let number = Math.floor(Math.random() * 25) + 1;
+let number = Math.floor(Math.random() * 10) + 1;
 
 btn.addEventListener("clcik", function(){
     let input = document.getElementById("userInput").value;
