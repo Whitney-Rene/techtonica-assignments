@@ -1,19 +1,11 @@
+//create variables
 let btn = document.getElementById("btn");
 let playAgain = document.getElementById("playAgain");
 let output = document.getElementById("output");
 let userInput = document.getElementById("userInput");
 
-// let number;
 
-function resetGame() {
-    number = Math.floor(Math.random() * 5) + 1;
-    output.innerHTML = "Guess a Number Between 1 - 5";
-    output.style.color = "white";
-    userInput.value = "";
-}
-
-// let number = Math.floor(Math.random() * 5) + 1;
-
+//eventListener for submit buttton, if else statements
 btn.addEventListener("click", function(){
     let input = document.getElementById("userInput").value;
     if(input == "") {
@@ -31,16 +23,22 @@ btn.addEventListener("click", function(){
     } else if(input == number){
         output.innerHTML = `You guessed correctly, the number was ${number}`
         output.style.color = "pink";
-        output.style.borderColor = "rgb(150, 200, 150)";
+        output.style.borderColor = "rgb(150, 200, 150)"; //couldn't get this border to work
     }
 });
 
+// reset game function
+function resetGame() {
+    number = Math.floor(Math.random() * 5) + 1;
+    output.innerHTML = "Guess a Number Between 1 - 5";
+    output.style.color = "white";
+    userInput.value = "";
+}
+
+//reset game without refreshing the entire page
 playAgain.addEventListener("click", function() {
     resetGame();
 })
 
+//played around with this?
 resetGame();
-
-//play again button?? / how to reset the game? 
-//what if people don't enter a number? Like, if they enter a word, something that is not a number?
-//media queries 
