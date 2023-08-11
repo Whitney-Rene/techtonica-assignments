@@ -7,7 +7,7 @@ let userInput = document.getElementById("userInput");
 
 function resetGame() {
     number = Math.floor(Math.random() * 5) + 1;
-    output.innerHTML = "";
+    output.innerHTML = "Guess a Number Between 1 - 5";
     output.style.color = "navy";
     userInput.value = "";
 }
@@ -30,7 +30,8 @@ btn.addEventListener("click", function(){
         output.style.color = "saddlebrown";
     } else if(input == number){
         output.innerHTML = `You guessed correctly, the number was ${number}`
-        output.style.color = "hotpink";
+        output.style.color = "pink";
+        output.style.borderColor = "rgb(150, 200, 150)";
     }
 });
 
@@ -39,5 +40,7 @@ playAgain.addEventListener("click", function() {
 })
 
 resetGame();
+
 //play again button?? / how to reset the game? 
 //what if people don't enter a number? Like, if they enter a word, something that is not a number?
+//media queries 

@@ -34,6 +34,7 @@ label {
     height: 50px;
     margin: 25px auto;
     font-size: larger;
+    margin-top: 0;
 }
 
 /* 
@@ -60,4 +61,5 @@ margin-left: value;
 #playAgain {
     background-color: lavenderblush;
     border: 5px solid lightcyan;
+    margin-top: 0;
 }
