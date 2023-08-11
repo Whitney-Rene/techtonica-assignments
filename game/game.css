@@ -1,40 +1,54 @@
-body {
+/* body {
     background-color: rgb(150, 200, 150);
+} */
+
+html, body {
+    background-color: wheat;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#title {
+
+#title, label {
     text-align: center;
     font-family: cursive;
     color: saddlebrown;
+}
+
+label {
+    font-size: larger
+    
 }
 
 #container {
     background-color: lightsalmon;
     color: black;
     border: 5px dotted lightgray; 
-    height: 275px;
+    height: 375px;
     width: 750px;
-    margin: auto;
+    margin: 25px auto;
     text-align: center;
 }
 
 p {
-    font-size: large;
+    font-size:larger;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-label {
+/* label {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: large;
     font-weight: bold;
-}
+} */
 
 #userInput {
     width:150px;
     height: 50px;
     margin: 25px auto;
     font-size: larger;
-    margin-top: 0;
 }
 
 /* 
@@ -60,6 +74,10 @@ margin-left: value;
 
 #playAgain {
     background-color: lavenderblush;
-    border: 5px solid lightcyan;
-    margin-top: 0;
+    /* border: 5px solid lightcyan; */
 }
+
+/* label {
+    font-family: cursive;
+    color: saddlebrown;
+} */

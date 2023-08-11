@@ -8,7 +8,7 @@ let userInput = document.getElementById("userInput");
 function resetGame() {
     number = Math.floor(Math.random() * 5) + 1;
     output.innerHTML = "Guess a Number Between 1 - 5";
-    output.style.color = "navy";
+    output.style.color = "white";
     userInput.value = "";
 }
 
