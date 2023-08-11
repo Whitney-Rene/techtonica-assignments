@@ -74,10 +74,10 @@ margin-left: value;
 
 #playAgain {
     background-color: lavenderblush;
-    /* border: 5px solid lightcyan; */
 }
 
-/* label {
-    font-family: cursive;
-    color: saddlebrown;
-} */
+@media (max-width: 800px) {
+    #container {
+        width: 55%;
+    }
+}
