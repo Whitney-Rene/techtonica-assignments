@@ -16,14 +16,15 @@ btn.addEventListener("click", function(){
         output.style.color = "dimgray";
     } else if (input < number){
         output.innerHTML = "too low";
-        output.style.color = "white";
+        output.style.color = "";
     } else if (input > number){
         output.innerHTML = "too high";
         output.style.color = "saddlebrown";
     } else if(input == number){
-        output.innerHTML = `You guessed correctly, the number was ${number}`
-        output.style.color = "pink";
-        output.style.borderColor = "rgb(150, 200, 150)"; //couldn't get this border to work
+        output.innerHTML = `You guessed correctly, the number was ${number}!!!`
+        output.style.color = "fuchsia"; 
+        output.style.border = "2px solid lightgoldenrodyellow";
+        // I want the space to the left and right to be eliminated.
     }
 });
 
