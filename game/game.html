@@ -1,15 +1,33 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
     <title>Guess a Number</title>
+
 </head>
+
 <body>
+
     <div id="container">
-        <p>Guess a Number Between 1 - 25</p>
+        <h1 id="title">Let's Play!</h1>
+        <p id="output" style="color: white;" >Guess a Number Between 1 - 5</p>
         <label for="userInput">Enter a number</label>
-        <input type="text" id="userInput"><button id="btn">Enter</button>
+        <input type="text" id="userInput">
+        <button id="btn">Submit</button>
+
+        <div>
+            <button id="playAgain">Play again</button>
+        </div>
+
     </div>
+
+    <script src="game.js"></script>
+
 </body>
+
 </html>
