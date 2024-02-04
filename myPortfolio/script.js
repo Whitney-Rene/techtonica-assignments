@@ -24,3 +24,19 @@ document.getElementById("submit").addEventListener("click", (event) =>{
     console.log(email);
 })
 
+// const photo = document.getElementsByClassName('containers');
+// photo[0].style.opacity = "1";
+
+// Get the first element with the class "containers"
+const firstContainer = document.querySelector('.containers');
+
+// Add a mouseover event listener to apply the sepia effect on hover
+firstContainer.addEventListener('mouseover', () => {
+  firstContainer.style.filter = 'sepia(100%)';
+});
+
+// Add a mouseout event listener to remove the sepia effect when the mouse leaves
+firstContainer.addEventListener('mouseout', () => {
+  firstContainer.style.filter = 'none'; // Reset the filter to remove the effect
+});
+

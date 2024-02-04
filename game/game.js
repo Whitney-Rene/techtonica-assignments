@@ -10,7 +10,7 @@ btn.addEventListener("click", function(){
     let input = document.getElementById("userInput").value;
     if(input == "") {
         output.innerHTML = "you must enter something"
-        output.style.color = "navy";
+        output.classList.add("navyClass");
     } else if (input <= 0 || input > 5){
         output.innerHTML = "remember to guess between numbers 1 - 5"
         output.style.color = "dimgray";
@@ -33,6 +33,7 @@ function resetGame() {
     number = Math.floor(Math.random() * 5) + 1;
     output.innerHTML = "Guess a Number Between 1 - 5";
     output.style.color = "white";
+    output.style.border = "none";  //resets the border to nothing
     userInput.value = "";
 }
 
